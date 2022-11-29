@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { fadeIn } from "../utils/motion";
 
 const Footer = () => (
   <motion.footer whileInView={{ opacity: [0, 1] }} transition={{ delay: 1 }}>
@@ -12,7 +11,7 @@ const Footer = () => (
       <div className="flex justify-center items-center text-white bg-[#25618B] p-4 rounded-full mt-0 sm:mt-5">
         <img
           src="/headset.svg"
-          alt="headset image"
+          alt="headset"
           className="h-[15px] w-[15px] object-contain mr-2"
         />
         <p>ENTER METAVERCE</p>
