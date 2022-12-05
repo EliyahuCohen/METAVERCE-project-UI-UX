@@ -19,7 +19,7 @@ const Footer = () => (
     </div>
     <div
       style={{ color: "rgba(255, 255, 255, 0.4)" }}
-      className="max-w-[1100px] m-auto mt-5 pb-5 flex lg:flex-row sm:flex-col items-center justify-between"
+      className="max-w-[1100px] m-auto mt-5 pb-5 flex responsive lg:flex-row  items-center justify-between"
     >
       <h3>MERTAVURSE</h3>
       <p>Copyright 2022 Eliyahu Cohen | All rights reserved.</p>

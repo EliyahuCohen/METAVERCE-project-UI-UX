@@ -108,3 +108,14 @@ body {
   background: #65c4fa;
   filter: blur(150px);
 }
+@media screen and (max-width: 750px) {
+  .responsive {
+    flex-direction: column;
+  }
+  .responsive > * {
+    margin-top: 10px;
+  }
+  .responsive > :first-child {
+    margin-top: 0;
+  }
+}
